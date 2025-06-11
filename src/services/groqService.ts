@@ -91,7 +91,7 @@ class GroqService {
     }
   }
 
-  async textToSpeech(text: string, voice: string = 'Fritz-PlayAI'): Promise<{ audioUrl: string, visemeData?: any }> {
+  async textToSpeech(text: string, voice: string = 'Celeste-PlayAI'): Promise<{ audioUrl: string, visemeData?: any }> {
     try {
       // Check if API key is set
       if (!this.apiKey) {
